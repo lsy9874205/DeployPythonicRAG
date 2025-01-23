@@ -1,3 +1,4 @@
+from dotenv import load_dotenv
 import os
 from typing import List
 from chainlit.types import AskFileResponse
@@ -11,6 +12,12 @@ from aimakerspace.openai_utils.embedding import EmbeddingModel
 from aimakerspace.vectordatabase import VectorDatabase
 from aimakerspace.openai_utils.chatmodel import ChatOpenAI
 import chainlit as cl
+
+load_dotenv()  # Load environment variables from .env file
+
+# Add this near the top of the file, after the imports
+if not os.getenv("OPENAI_API_KEY"):
+    raise ValueError("OPENAI_API_KEY environment variable is not set")
 
 system_template = """\
 Use the following context to answer a users question. If you cannot find the answer in the context, say you don't know the answer."""
