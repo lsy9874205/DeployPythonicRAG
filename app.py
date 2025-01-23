@@ -32,10 +32,6 @@ Question:
 """
 user_role_prompt = UserRolePrompt(user_prompt_template)
 
-assistant_template = """\
-I am a helpful AI assistant specialized in answering questions based on the provided context. I will be clear and concise in my responses."""
-assistant_role_prompt = AssistantRolePrompt(assistant_template)
-
 class RetrievalAugmentedQAPipeline:
     def __init__(self, llm: ChatOpenAI(), vector_db_retriever: VectorDatabase) -> None:
         self.llm = llm
