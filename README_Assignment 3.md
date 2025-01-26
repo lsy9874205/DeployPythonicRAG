@@ -332,10 +332,14 @@ Try uploading a text file and asking some questions!
 Upload a PDF file of the recent DeepSeek-R1 paper and ask the following questions:
 
 1. What is RL and how does it help reasoning?
-2. What is the difference between DeepSeek-R1 and DeepSeek-R1-Zero?
-3. What is this paper about?
+LSY ANSWER -> RL stands for Reinforcement Learning, which is a type of machine learning where an agent learns to make decisions by taking actions in an environment and receiving feedback in the form of rewards or penalties. In the context of the reasoning capabilities of language models, RL helps by allowing the model to explore and develop reasoning patterns without relying on supervised data. This self-evolution through pure RL can lead to the model exhibiting advanced reasoning behaviors, such as self-verification and generating complex chains of thought, thereby enhancing its performance in reasoning tasks. In the case of DeepSeek-R1-Zero, for example, it demonstrates significant improvements in reasoning benchmarks after being trained using RL techniques.
 
-Does this application pass your vibe check? Are there any immediate pitfalls you're noticing?
+2. What is the difference between DeepSeek-R1 and DeepSeek-R1-Zero? LSY ANSWER -> 
+The context does not provide specific details about the differences between DeepSeek-R1 and DeepSeek-R1-Zero. Therefore, I don't know the answer.
+
+3. What is this paper about? LSY ANSWER -> I don't know the answer.
+
+Does this application pass your vibe check? Are there any immediate pitfalls you're noticing? LSY ANSWER -> It does not pass my vibe check. Q1's answer is solid, but didn't seem to engage deeply enough witht the paper's content for subsequent answers. Even though I provided specific references to DeepSeek-R1 and DeepSeek-R1-Zero, the model didn't seem to use them to generate answers. Q2 and Q3 were not able to provide any answers. 
 
 ## 🚧 CHALLENGE MODE 🚧
 
